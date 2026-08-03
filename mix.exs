@@ -13,8 +13,7 @@ defmodule SBoM.MixProject do
     [
       app: :sbom,
       version: @version,
-      # MIX.SCM.delete available from 1.16.2
-      elixir: "~> 1.16 and >= 1.16.2",
+      elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       build_embedded: true,
       elixirc_paths: elixirc_paths(Mix.env()),
