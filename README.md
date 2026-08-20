@@ -163,6 +163,8 @@ an SBoM for your project.
   (defaults to "false")
 - `include-system-dependencies`: Include system dependencies (Erlang/OTP,
   Elixir, Hex) in the SBoM (defaults to "true")
+- `extra-args`: Extra arguments to pass through to the `mix_sbom cyclonedx`
+  command, e.g. `--only prod` (defaults to "")
 
 ### Outputs
 
